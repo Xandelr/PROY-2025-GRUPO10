@@ -29,7 +29,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 🧩 Alcance del proyecto
 
-> *Definir qué aspectos cubre el proyecto y qué queda fuera del alcance (limitaciones).*
+> El proyecto puede alcanzar un mundo muy amplio ejemplo a patios de comidas de malls entre otros lugares donde se deben buscar mesas para descansar/trabajar, pero en nuestro caso primero haremos una pequeña versión donde solo probaremos con 1 piso de la biblioteca para ver que el funcionamiento y el objetivo de nuestro proyecto este bien logrado. y si funciona correctamente intentaremos implementar este sistema a toda la biblioteca para que los alumnos tengan buena comodidad y ahorren su tiempo claramente.
 
 ---
 
