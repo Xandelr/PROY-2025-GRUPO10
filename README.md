@@ -8,7 +8,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 | ----------------- | -------------- | ------------------------ | ------------ |
 | Gabriel   Nieto   | @Xandelr       | gnieto@usm.cl            | 202530008-7  |
 | Álvaro    Machuca | @Pekoragaming  | amachuca@usm.cl          | 202530009-5  |
-| Nombre3 Apellido3 | @usuario3      | nombre3.apellido3@usm.cl | 200000000000 |
+| Felipe Urbina     | @ElectroNightMD| furbinao@usm.cl          | 202530037-0  |
 | Nombre4 Apellido4 | @usuario4      | nombre4.apellido4@usm.cl | 200000000000 |
 
 ---
