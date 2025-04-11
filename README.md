@@ -16,7 +16,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 📝 Descripción breve del proyecto
 
 > *Aquí va una descripción general del proyecto, incluyendo su propósito, contexto dentro del curso y motivación.*
-
+hola que tal viva linux
 ---
 
 ## 🎯 Objetivos
