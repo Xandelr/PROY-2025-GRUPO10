@@ -36,10 +36,10 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-- Ej: Python, JavaScript, C++
-- Sensores
+- Python, Micro Python
+- Objetos Físicos:
 - Pegatinas NFC
-
+- Telefono Celular
 ---
 
 ## 🗂️ Estructura del repositorio
