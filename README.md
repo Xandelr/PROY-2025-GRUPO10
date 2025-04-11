@@ -14,8 +14,6 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ---
 
 ## 📝 Descripción breve del proyecto
-
-> *Aquí va una descripción general del proyecto, incluyendo su propósito, contexto dentro del curso y motivación.*
 > El proyecto, se centra en la facilitacion en la busqueda de puestos en la biblioteca, junto a una Web donde nos muestre las mesas ocupadas y libres.peng para eliminar la accion de buscar mesas por los pisos que esten vacias.
 ---
 
