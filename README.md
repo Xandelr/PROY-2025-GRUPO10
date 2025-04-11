@@ -14,7 +14,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ---
 
 ## 📝 Descripción breve del proyecto
-> El proyecto, se centra en la facilitacion en la busqueda de puestos en la biblioteca, junto a una Web donde nos muestre las mesas ocupadas y libres. para eliminar la accion de buscar mesas por los pisos que esten vacias.
+> El proyecto, se centra en la facilitacion en la busqueda de puestos/mesas en la biblioteca, junto a una Web donde nos muestre las mesas ocupadas y libres. para eliminar la accion de buscar mesas por los pisos que esten vacias.
 ---
 
 ## 🎯 Objetivos
@@ -36,17 +36,16 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-  - Ej: Python, JavaScript, C++
-- Microcontroladores
-  - Raspberry Pi Pico W 2
+- Ej: Python, JavaScript, C++
 - Sensores
+- Pegatinas NFC
 
 ---
 
 ## 🗂️ Estructura del repositorio
 
 ```
-/PROY-2025-GRUPOX
+/PROY-2025-GRUPO10
 │
 ├── docs/               # Documentación general y reportes
 ├── src/                # Código fuente del proyecto
