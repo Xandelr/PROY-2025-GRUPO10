@@ -14,7 +14,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ---
 
 ## 📝 Descripción breve del proyecto
-> El proyecto, se centra en la facilitacion en la busqueda de puestos en la biblioteca, junto a una Web donde nos muestre las mesas ocupadas y libres.peng para eliminar la accion de buscar mesas por los pisos que esten vacias.
+> El proyecto, se centra en la facilitacion en la busqueda de puestos en la biblioteca, junto a una Web donde nos muestre las mesas ocupadas y libres. para eliminar la accion de buscar mesas por los pisos que esten vacias.
 ---
 
 ## 🎯 Objetivos
