@@ -65,7 +65,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 📅 Cronograma de trabajo
 
 
-[Carta Gantt](https://google.com)
+[Carta Gantt] https://usmcl-my.sharepoint.com/:x:/g/personal/gnieto_usm_cl/EVeNQKD9C6tBvRJiTn4PwVcBgKFDHwVcBv-MJPKNyf0gZg?e=s4KagD 
 
 ---
 
