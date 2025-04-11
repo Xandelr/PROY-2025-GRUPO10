@@ -20,9 +20,10 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 🎯 Objetivos
 
 - Objetivo general:
-  - *Describir el objetivo principal del proyecto.*
+  - El objetivo que nosotros tenemos es conseguir crear una base de datos que nos permita ver el estado de las mesas de la biblioteca (OCUPADO/LIBRE)
 - Objetivos específicos:
-  - *Listar objetivos concretos que permitirán alcanzar el objetivo general.*
+  - Los objetivo especificos que queremos lograr serian , lograr una gran parte de la biblioteca con los "stickers" de NFC (near field communication),
+  lograr realizar la base de datos que registre el uso de dichas mesas.
 
 ---
 
