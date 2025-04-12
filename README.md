@@ -58,7 +58,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 🧪 Metodología
 
-> *La metodologia que se uso en el proyecto es el Modelo de Cascada, la cual se basa en un trabajo hecho de forma escalonada y lineal. El flujo de trabajo empleado en el proyecto es Trunk-Based Development, la cual se basa en un trabajo unico en la rama main, con ramas de vida bastante cortas. Se selecciono este, debido a el rpoposito del proyecto y el periodo limitado de desarrollo.*
+> *La metodologia que se uso en el proyecto es el Modelo de Cascada, la cual se basa en un trabajo hecho de forma escalonada y lineal. El flujo de trabajo empleado en el proyecto es Trunk-Based Development, la cual se basa en un trabajo unico en la rama main, con ramas de vida bastante cortas. Se selecciono este, debido a el proposito del proyecto y el periodo limitado de desarrollo.*
 
 ---
 
@@ -78,4 +78,4 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 📌 Notas adicionales
 
-> *Proyecto en fase inicial.Proyecto que probablemente quede en desuso luego del periodo indicado. Pegatinas NFC modificadicas para su lectura.*
+> *Proyecto en fase inicial. Proyecto que probablemente quede en desuso luego del periodo indicado. Pegatinas NFC modificadicas para su lectura.*
