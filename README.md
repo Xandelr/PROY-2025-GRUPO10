@@ -21,9 +21,13 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 - Objetivo general:
   - El objetivo que nosotros tenemos es conseguir crear una base de datos que nos permita ver el estado de las mesas de la biblioteca (OCUPADO/LIBRE)
+  
 - Objetivos específicos:
-  - Los objetivo especificos que queremos lograr serian , lograr que una gran parte de las mesas de la biblioteca contengan los "stickers" de NFC (near field communication),
-  lograr realizar la base de datos que registre el uso de dichas mesas.
+  - Los objetivo especificos que queremos lograr serian , lograr que una gran parte de las mesas de la biblioteca contengan los "stickers" de NFC (near field communication)
+
+  - Lograr modificar los NCF para que un telefono (con tecnologia de NFC) sea capaz de leerlos y mandar informacion.
+
+  - Lograr realizar la base de datos que registre el uso de dichas mesas.
 
 ---
 
