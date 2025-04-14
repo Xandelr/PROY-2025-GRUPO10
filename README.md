@@ -70,7 +70,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 [Presentacion Ideas] https://www.canva.com/design/DAGi7pNhhMk/Hsu3KtiUx-I1pUMYP4cMGw/edit?utm_content=DAGi7pNhhMk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton  
 
-[Carta Gantt] https://usmcl-my.sharepoint.com/:x:/g/personal/gnieto_usm_cl/EVeNQKD9C6tBvRJiTn4PwVcBgKFDHwVcBv-MJPKNyf0gZg?e=s4KagD 
+[Carta Gantt] https://usmcl-my.sharepoint.com/:x:/g/personal/gnieto_usm_cl/EVeNQKD9C6tBvRJiTn4PwVcBgKFDHwVcBv-MJPKNyf0gZg?e=S5EHIZ 
 
 ---
 
