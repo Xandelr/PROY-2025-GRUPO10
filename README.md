@@ -25,7 +25,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Objetivos específicos:
   - Los objetivo especificos que queremos lograr serian , lograr que una gran parte de las mesas de la biblioteca contengan los "stickers" de NFC (near field communication)
 
-  - Lograr modificar los NCF para que un telefono (con tecnologia de NFC) sea capaz de leerlos y mandar informacion.
+  - Lograr modificar los NFC para que un telefono (con tecnologia de NFC) sea capaz de leerlos y mandar informacion.
 
   - Lograr realizar la base de datos que registre el uso de dichas mesas.
 
