@@ -40,7 +40,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-- Python, Micro Python
+- Javascript, HTML, CSS
 - Objetos Físicos:
 - Pegatinas NFC
 - Telefono Celular
