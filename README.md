@@ -29,6 +29,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
   - Lograr realizar la base de datos que registre el uso de dichas mesas.
 
+  - Lograr un minimo de 2 pisos con estos "stickers" con un funcionamiento eficiente y sencillo
 ---
 
 ## 🧩 Alcance del proyecto
