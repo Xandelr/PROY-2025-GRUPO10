@@ -1,0 +1,74 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Contenedor principal de las mesas */
+#contenedorMesas {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Contenedor de cada piso */
+.piso {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Título del piso */
+.piso h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de todas las filas dentro de un piso */
+.filas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Fila con hasta 5 mesas */
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Estilo individual de cada mesa */
+.mesa {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: green;
+  transition: background-color 0.3s;
+}
+
+.mesa.ocupada {
+  background-color: red;
+}
+
+.mesa:hover {
+  transform: scale(1.1);
+}
+
+.mesa:active {
+  transform: scale(1);
+}
