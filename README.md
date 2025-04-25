@@ -84,3 +84,8 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 📌 Notas adicionales
 
 > *Proyecto en fase inicial. Proyecto que probablemente quede en desuso luego del periodo indicado. Pegatinas NFC modificadicas para su lectura.*
+
+## Link momentaneo ♟️
+
+https://xandelr.github.io/Take-pi/
+(pagina de las mesas )
