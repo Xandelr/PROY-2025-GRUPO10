@@ -89,5 +89,6 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 https://xandelr.github.io/Take-pi/
 (pagina de las mesas )
+
 https://github.com/Xandelr/Take-pi
 (IMPORTANTE!! Esta pagina contiene el todos los codigos y es la que sostiene la pagina)
