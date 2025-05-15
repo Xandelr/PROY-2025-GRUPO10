@@ -91,4 +91,4 @@ https://xandelr.github.io/Take-pi/
 (pagina de las mesas )
 
 https://github.com/Xandelr/Take-pi
-(IMPORTANTE!! Esta pagina contiene el todos los codigos y es la que sostiene la pagina)
+(IMPORTANTE!! Este Git contiene el todos los codigos y es la que sostiene la pagina)
