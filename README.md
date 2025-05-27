@@ -26,7 +26,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Objetivos específicos:
   - Los objetivo especificos que queremos lograr serian , lograr que una gran parte de las mesas de la biblioteca contengan los "stickers" de NFC (near field communication)
 
-  - Usar la Rasp Berry Pi como transitor y fuente de poder para el sensor de temperatura 
+  - Usar la Rasp Berry Pi como transitor y fuente de poder para el sensor de temperatura (Bmp 280) 
 
   - Lograr modificar los NFC para que un telefono (con tecnologia de NFC) sea capaz de leerlos y mandar informacion.
 
@@ -44,12 +44,13 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-- Javascript, HTML, CSS
+- Javascript, HTML, CSS, PYTHON
 - Objetos Físicos:
 - Pegatinas NFC
 - Telefono Celular
 - Rasp Berry Pi
-- Micro USD
+- Micro USB
+- Sensor de Temperatura Bmp 280
 - Gemino
 - Chat gpt
 - Grok
