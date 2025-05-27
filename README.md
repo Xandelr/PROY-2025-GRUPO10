@@ -21,9 +21,12 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 - Objetivo general:
   - El objetivo que nosotros tenemos es conseguir crear una base de datos que nos permita ver el estado de las mesas de la biblioteca (OCUPADO/LIBRE)
+  - Objetivo que la base de datos muestre la temperatura general de la biblioteca.
   
 - Objetivos específicos:
   - Los objetivo especificos que queremos lograr serian , lograr que una gran parte de las mesas de la biblioteca contengan los "stickers" de NFC (near field communication)
+
+  - Usar la Rasp Berry Pi como transitor y fuente de poder para el sensor de temperatura 
 
   - Lograr modificar los NFC para que un telefono (con tecnologia de NFC) sea capaz de leerlos y mandar informacion.
 
@@ -45,6 +48,11 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Objetos Físicos:
 - Pegatinas NFC
 - Telefono Celular
+- Rasp Berry Pi
+- Micro USD
+- Gemino
+- Chat gpt
+- Grok
 ---
 
 ## 🗂️ Estructura del repositorio
