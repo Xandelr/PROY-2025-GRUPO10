@@ -64,11 +64,13 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ```
 /PROY-2025-GRUPO10
 │
-├── docs/               # Documentación general y reportes
-├── src/                # Código fuente del proyecto
-├── tests/              # Casos de prueba
-├── assets/             # Imágenes, diagramas, etc.
-└── README.md           # Este archivo
+├── activar.html y activar.js / # Pagina y funcionamiento de activar
+├── crearMesasPorPisos / # Codigo que crea las mesas solas
+├── estilos.css / # Diseño de la pagina visible
+├── index.html/ # Diseño de la pagina web
+├── liberar.html y liberar.js/ # Pagina y funcionamiento de liberar
+├── script.js/ # Codigo base de la pagina principal
+└── README.md/ # Este archivo
 ```
 
 ---
