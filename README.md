@@ -45,6 +45,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 - Lenguaje(s) de programación:
 - Javascript, HTML, CSS, PYTHON
+
 - Objetos Físicos:
 - Pegatinas NFC
 - Telefono Celular
@@ -52,7 +53,8 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Micro USB
 - Sensor de Temperatura Bmp 280
 - Cable Hembra y Macho
-- Web utilizadas
+
+- Web utilizadas:
 - Google FireBase
 - Google AppScripts
 - Excel
@@ -64,6 +66,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ```
 /PROY-2025-GRUPO10
 │
+├── Temperatura.py / # codigo que hace que se muestre la temperatura
 ├── activar.html y activar.js / # Pagina y funcionamiento de activar
 ├── crearMesasPorPisos / # Codigo que crea las mesas solas
 ├── estilos.css / # Diseño de la pagina visible
@@ -99,7 +102,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 > *Proyecto en fase inicial. Proyecto que probablemente quede en desuso luego del periodo indicado. Pegatinas NFC modificadicas para su lectura.*
 
-## Link momentaneo ♟️
+## Link momentaneos: ♟️
 
 https://xandelr.github.io/Take-pi/
 (pagina de las mesas )
