@@ -51,10 +51,12 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Rasp Berry Pi
 - Micro USB
 - Sensor de Temperatura Bmp 280
-- Gemino
-- Chat gpt
-- Grok
 - Cable Hembra y Macho
+- Web utilizadas
+- Google FireBase
+- Google AppScripts
+- Excel
+
 ---
 
 ## 🗂️ Estructura del repositorio
