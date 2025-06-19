@@ -61,6 +61,69 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Google sheets
 
 ---
+## ✅ Instrucciones de Uso
+
+### 1. Configurar Firebase
+
+- Crea un proyecto en Firebase desde https://console.firebase.google.com.
+- Activa Firestore Database.
+- Copia la configuración del proyecto (`apiKey`, `authDomain`, etc.) y pégala en los archivos: `activar.js`, `liberar.js` y `script.js`.
+- Establece reglas de seguridad en Firestore para proteger los datos. Un ejemplo de regla útil:
+  - Permitir lectura pública.
+  - Permitir modificar únicamente el campo `estado` si el documento ya existe.
+  - Restringir otras acciones a un usuario autenticado específico.
+
+### 2. Preparar Firestore
+
+- Crea documentos en la colección `mesas` con nombres como: `piso1-mesa01`, `piso1-mesa02`, ..., `piso3-mesa10`.
+- A cada documento asígnale un campo llamado `estado` que contenga como valor "libre" o "ocupada".
+
+### 3. Archivos del Proyecto
+
+- `index.html`: Página principal que muestra todas las mesas por piso (en filas de 5).
+- `script.js`: Carga automáticamente el estado de las mesas desde Firebase y actualiza la vista.
+- `estilos.css`: Estiliza la interfaz, mostrando mesas verdes si están libres y rojas si están ocupadas.
+- `activar.html` y `liberar.html`: Modifican el estado de una mesa usando un parámetro `id` en la URL.
+- `activar.js` y `liberar.js`: Se conectan con Firebase y realizan la acción correspondiente.
+
+### 4. Publicar la Web
+
+- Sube los archivos a un repositorio de GitHub.
+- Activa GitHub Pages en la pestaña “Settings > Pages” y elige la rama que contiene tu web.
+- El enlace de tu web tendrá la forma:
+  - `https://tu_usuario.github.io/Take-pi/index.html`
+
+### 5. Uso
+
+- Abre `index.html` para ver el estado de las mesas en tiempo real.
+- Usa enlaces del tipo:
+  - `https://tu_usuario.github.io/Take-pi/activar.html?id=piso1-mesa01`
+  - `https://tu_usuario.github.io/Take-pi/liberar.html?id=piso1-mesa01`
+- Estos enlaces se pueden grabar en etiquetas NFC para facilitar la activación o liberación de mesas desde un celular con NFC.
+
+### 6. Mostrar Temperatura con Raspberry Pi Pico W 2
+
+Puedes medir la temperatura ambiente usando una Raspberry Pi Pico W 2 con un sensor BME280 y mostrarla en la web.
+
+**Funcionamiento:**
+- La Raspberry envía la temperatura y la hora a una hoja de cálculo de Google Sheets.
+- Un Apps Script convierte esos datos en una API pública.
+- La web consulta esta API para mostrar la temperatura actual.
+
+**Conexiones entre Raspberry y BME280 usando cables macho-macho:**
+
+| Pico W 2 (Pin) | BME280 (Pin) |
+|----------------|--------------|
+| 1I (GPIO 0)    | SDA (27G)    |
+| 1B (GND)       | GND (30G)    |
+| 2B (3V3)       | VCC (29G)    |
+| 3I (GPIO 1)    | SCL (28G)    |
+
+**Requisitos:**
+- Que el script en Google esté publicado como web app.
+- Que la web esté configurada para consultar esa API con `fetch()`.
+
+---
 
 ## 🗂️ Estructura del repositorio
 
