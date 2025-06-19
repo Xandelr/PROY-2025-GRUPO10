@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>Activando Mesa</title></head>
+<body>
+  <h1>Actualizando estado...</h1>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+    import { getFirestore, doc, updateDoc } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "TU_API_KEY",
+      authDomain: "TU_DOMINIO.firebaseapp.com",
+      projectId: "TU_PROJECT_ID",
+      storageBucket: "TU_PROJECT_ID.appspot.com",
+      messagingSenderId: "XXXXXXXXX",
+      appId: "XXXXXXXXX"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    const params = new URLSearchParams(window.location.search);
+    const mesa = params.get("mesa");
+
+    if (mesa) {
+      const ref = doc(db, "mesas", mesa);
+      updateDoc(ref, { estado: "ocupada" }).then(() => {
+        document.body.innerHTML = `<h2>Mesa ${mesa} activada correctamente</h2>`;
+      });
+    }
+  </script>
+</body>
+</html>
