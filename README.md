@@ -55,6 +55,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Cable Hembra y Macho
 
 - Web utilizadas:
+- Github & Github Pages
 - Google FireBase
 - Google AppScripts
 - Excel
@@ -84,6 +85,12 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ---
 
+## 🛡️ Seguridad del proyecto
+
+> *La seguridad es de lo mas importante en el proyecto, ya que este presenta api-keys las cuales son vulnerables a ataques. Para ello las api-keys utilizadas estan seguras auque esten visibles gracias a las reglas de firebase, las cuales fueron modificadas para que solo los administradores identificados con ciertos UID pueden modificar las variables y la creacion de nuevas, pero que se permita que los usuarios publicos puedan cambiar el estado de las variables a "ocupada" o "libre".*
+
+---
+
 ## 📅 Cronograma de trabajo
 
 [Presentacion Ideas] https://www.canva.com/design/DAGi7pNhhMk/Hsu3KtiUx-I1pUMYP4cMGw/edit?utm_content=DAGi7pNhhMk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton  
@@ -94,7 +101,10 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 📚 Bibliografía
 
-[Enlace](https://google.com)
+[Enlace](https://github.com/ensarbooks/guides)
+[Enlace](https://www.reddit.com/r/FlutterFlow/comments/1j60jua/i_just_realized_something_that_could_bankrupt/?utm_source=chatgpt.com)
+[Enlace](https://www.youtube.com/watch?v=d4leg9WwS8M)
+[Enlace](https://www.reddit.com/r/github/comments/ercxpd/how_to_set_up_a_website_with_github_pages/)
 
 ---
 
@@ -102,7 +112,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 > *Proyecto en fase inicial. Proyecto que probablemente quede en desuso luego del periodo indicado. Pegatinas NFC modificadicas para su lectura.*
 
-## Link momentaneos: ♟️
+## Links Importantes: ♟️
 
 https://xandelr.github.io/Take-pi/
 (pagina de las mesas )
