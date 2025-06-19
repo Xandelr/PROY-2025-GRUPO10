@@ -58,7 +58,7 @@ Repositorio del grupo 10 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Github & Github Pages
 - Google FireBase
 - Google AppScripts
-- Excel
+- Google sheets
 
 ---
 
