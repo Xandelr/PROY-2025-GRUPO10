@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberar Mesa</title>
+    <!-- Firebase CDN links -->
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <h1>Liberar Mesa</h1>
+
+    <!-- Formulario o Botón -->
+    <label for="mesaId">ID de Mesa:</label>
+    <input type="text" id="mesaId" placeholder="Ejemplo: mesa1">
+    <button onclick="liberarMesa()">Marcar como Libre</button>
+
+    <script>
+        // Configuración de Firebase
+        const firebaseConfig = {
+            apiKey: "xxxxxxxxxxxxxxxxxxx",
+            authDomain: "xxxxxxxxxxxxx",
+            projectId: "xxxxxxxxxxxxx",
+            storageBucket: "xxxxxxxxxxxxxxxxxxx",
+            messagingSenderId: "xxxxxxxxxxxxxx",
+            appId: "xxxxxxxxxxxxxxxxxxxx"
+        };
+
+        // Inicializa Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+        function liberarMesa() {
+            const mesaId = document.getElementById("mesaId").value; // Obtiene el ID de la mesa
+            if (mesaId) {
+                // Actualiza el estado de la mesa a "libre"
+                db.collection("mesas").doc(mesaId).update({
+                    estado: "libre"
+                }).then(() => {
+                    alert(`La mesa ${mesaId} ha sido liberada.`);
+                }).catch((error) => {
+                    console.error("Error al liberar la mesa:", error);
+                });
+            } else {
+                alert("Por favor, ingresa un ID de mesa.");
+            }
+        }
+    </script>
+</body>
+</html>
