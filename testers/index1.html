@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estado de las Mesas</title>
+  <style>
+    .mesa { padding: 20px; margin: 10px; border-radius: 10px; color: white; font-weight: bold; text-align: center; width: 100px; }
+    .ocupada { background-color: red; }
+    .libre { background-color: green; }
+  </style>
+</head>
+<body>
+  <h1>Estado de las mesas</h1>
+  <div id="contenedorMesas"></div>
+
+  <script type="module">
+    // Importa Firebase
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+    import { getFirestore, doc, getDocs, collection, onSnapshot } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "TU_API_KEY",
+      authDomain: "TU_DOMINIO.firebaseapp.com",
+      projectId: "TU_PROJECT_ID",
+      storageBucket: "TU_PROJECT_ID.appspot.com",
+      messagingSenderId: "XXXXXXXXX",
+      appId: "XXXXXXXXX"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    const contenedor = document.getElementById("contenedorMesas");
+
+    const cargarMesas = () => {
+      onSnapshot(collection(db, "mesas"), (snapshot) => {
+        contenedor.innerHTML = ""; // Limpia
+        snapshot.forEach((doc) => {
+          const estado = doc.data().estado;
+          const div = document.createElement("div");
+          div.className = `mesa ${estado}`;
+          div.innerText = doc.id;
+          contenedor.appendChild(div);
+        });
+      });
+    };
+
+    cargarMesas();
+  </script>
+</body>
+</html>
