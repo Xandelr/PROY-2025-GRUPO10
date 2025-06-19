@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+#contenedorMesas {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Separación entre los pisos */
+}
+
+.piso {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.piso-titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mesa {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: green; /* Mesa libre por defecto */
+  cursor: default; /* Deshabilita clics */
+}
+
+.mesa.ocupada {
+  background-color: red; /* Mesa ocupada */
+}
