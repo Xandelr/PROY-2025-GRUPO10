@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesas - Estado</title>
+</head>
+<body>
+    <h1>Estado de las Mesas</h1>
+    <div id="contenedorMesas"></div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+        import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
+
+        const firebaseConfig = {
+            apiKey: "xxxxxxxxxxxxxxxxxxxxxxx",
+            authDomain: "xxxxxxxxxxxxxxxxxxxxxxx",
+            projectId: "xxxxxxxxxxxxxxxxxxxxxxx",
+            storageBucket: "xxxxxxxxxxxxxxxxxxxxxxx",
+            messagingSenderId: "xxxxxxxxxxxxxxxxxxxxxxx",
+            appId: "xxxxxxxxxxxxxxxxxxxxxxx"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        const contenedor = document.getElementById("contenedorMesas");
+
+        const cargarMesas = () => {
+            onSnapshot(collection(db, "mesas"), (snapshot) => {
+                contenedor.innerHTML = ""; // Limpia el contenedor antes de agregar las mesas
+                snapshot.forEach((doc) => {
+                    const estado = doc.data().estado;
+                    const div = document.createElement("div");
+                    div.className = `mesa ${estado}`;
+                    div.innerText = doc.id; // Nombre de la mesa (ej. mesa1)
+                    contenedor.appendChild(div);
+                });
+            });
+        };
+
+        cargarMesas();
+    </script>
+</body>
+</html>
