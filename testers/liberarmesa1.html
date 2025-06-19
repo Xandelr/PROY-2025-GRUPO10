@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><title>Liberando Mesa</title></head>
+<body>
+  <h1>Actualizando estado...</h1>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/xxxxxxx.js";
+    import { getFirestore, doc, updateDoc } from "https://www.gstatic.com/firebasejs/10.10.0/xxxxxxxxx.js";
+
+    const firebaseConfig = {
+      apiKey: "xxxxxxxxxxxxxx",
+      authDomain: "xxxxxxxxx",
+      projectId: "xxxxxx",
+      storageBucket: "xxxxxxxxxxxxx",
+      messagingSenderId: "xxxxxxxxxxx",
+      appId: "xxxxxxxxxxxxxxxx"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    const params = new URLSearchParams(window.location.search);
+    const mesa = params.get("mesa");
+
+    if (mesa) {
+      const ref = doc(db, "mesas", mesa);
+      updateDoc(ref, { estado: "libre" }).then(() => {
+        document.body.innerHTML = `<h2>Mesa ${mesa} liberada correctamente</h2>`;
+      }).catch((error) => {
+        document.body.innerHTML = `<h2>Error actualizando mesa: ${error.message}</h2>`;
+      });
+    } else {
+      document.body.innerHTML = "<h2>No se especificó ninguna mesa</h2>";
+    }
+  </script>
+</body>
+</html>
