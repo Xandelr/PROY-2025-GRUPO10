@@ -130,13 +130,10 @@ Puedes medir la temperatura ambiente usando una Raspberry Pi Pico W 2 con un sen
 ```
 /PROY-2025-GRUPO10
 │
-├── Temperatura.py / # codigo que hace que se muestre la temperatura
-├── activar.html y activar.js / # Pagina y funcionamiento de activar
-├── crearMesasPorPisos / # Codigo que crea las mesas solas
-├── estilos.css / # Diseño de la pagina visible
-├── index.html/ # Diseño de la pagina web
-├── liberar.html y liberar.js/ # Pagina y funcionamiento de liberar
-├── script.js/ # Codigo base de la pagina principal
+├── carpeta docs/ # carpeta con todo los documentos del proyecto
+├── carpeta raspberry/ # carpeta con todos los codigos de la raspberry pi
+├── carpeta src/ # carpeta con todos los codigos de la pagina del proyecto
+├── carpeta testers/ # carpeta con todos los codigos de prueba del proyecto
 └── README.md/ # Este archivo
 ```
 
