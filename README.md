@@ -161,10 +161,10 @@ Puedes medir la temperatura ambiente usando una Raspberry Pi Pico W 2 con un sen
 
 ## 📚 Bibliografía
 
-[Enlace](https://github.com/ensarbooks/guides)
-[Enlace](https://www.reddit.com/r/FlutterFlow/comments/1j60jua/i_just_realized_something_that_could_bankrupt/?utm_source=chatgpt.com)
-[Enlace](https://www.youtube.com/watch?v=d4leg9WwS8M)
-[Enlace](https://www.reddit.com/r/github/comments/ercxpd/how_to_set_up_a_website_with_github_pages/)
+[Enlace GitHub Guia](https://github.com/ensarbooks/guides)
+[Enlace Reddit](https://www.reddit.com/r/FlutterFlow/comments/1j60jua/i_just_realized_something_that_could_bankrupt/?utm_source=chatgpt.com)
+[Enlace FireBase](https://www.youtube.com/watch?v=d4leg9WwS8M)
+[Enlace Reddit](https://www.reddit.com/r/github/comments/ercxpd/how_to_set_up_a_website_with_github_pages/)
 [Video](https://youtu.be/-22Gbac2GHM?si=RcmovkOX55tCUguv)
 ---
 
